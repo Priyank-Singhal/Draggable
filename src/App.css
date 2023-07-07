@@ -1,7 +1,10 @@
 /* * {
     padding: 0;
 } */
-
+.App {
+    height: 100vh;
+    background-color: aliceblue;
+}
 /* .box {
     width: 550px;
     height: 200px;
@@ -12,28 +15,33 @@
     padding: 1em;
 } */
 
-.box {
-    width: 200px;
+/* .box {
+    width: 400px;
     height: 200px;
-    background-color: lightgray;
-    margin: 16px;
-  }
-/* 
-.parent-box {
-    position: relative;
-    margin: 4rem;
-    padding: 5rem;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    border: 1px solid black;
+    padding: 10px;
+    border: 2px solid greenyellow;
   } */
 
-button {
+.parent-box {
+    position: relative;
+    /* margin: 4rem;
+    /* width: 400px; */
+    margin: 10px;
+    height: 400px;
+    background-color: rgb(236, 216, 216);
+    border: 1px solid black;
+  }
+
+.button {
     width: inherit;
+    background-color: white;
     align-content: center;
     padding: 4px 2rem;
+    /* margin: 10px; */
+    /* padding: 4px 2rem; */
+    /* margin: 10px; */
     cursor: pointer;
+    border: 2px solid red;
 }
 
 #parent-button {

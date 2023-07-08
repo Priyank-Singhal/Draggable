@@ -1,50 +1,24 @@
-/* * {
-    padding: 0;
-} */
 .App {
     height: 100vh;
-    background-color: aliceblue;
 }
-/* .box {
-    width: 550px;
-    height: 200px;
-    border: 2px solid greenyellow;
-    position: absolute;
-    color: black;
-    border-radius: 5px;
-    padding: 1em;
-} */
-
-/* .box {
-    width: 400px;
-    height: 200px;
-    padding: 10px;
-    border: 2px solid greenyellow;
-  } */
-
-.parent-box {
-    position: relative;
-    /* margin: 4rem;
-    /* width: 400px; */
-    margin: 10px;
-    height: 400px;
-    background-color: rgb(236, 216, 216);
-    border: 1px solid black;
-  }
 
 .button {
     width: inherit;
     background-color: white;
-    align-content: center;
-    padding: 4px 2rem;
-    /* margin: 10px; */
-    /* padding: 4px 2rem; */
-    /* margin: 10px; */
+    padding: 4px;
     cursor: pointer;
     border: 2px solid red;
 }
 
-#parent-button {
+.parent-box {
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    border: 2px solid greenyellow;
+}
+
+#add-button {
     margin-left: 50%;
     transform: translate(-50%, 0);
+    cursor: pointer;
 }
